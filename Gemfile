@@ -27,6 +27,8 @@ end
 
 gem 'jquery-rails', '2.1.2'
 
+gem 'rb-readline', '0.4.2'
+
 group :test do
 	gem 'capybara', '1.1.2'
 	gem 'rb-inotify', '0.8.8'
