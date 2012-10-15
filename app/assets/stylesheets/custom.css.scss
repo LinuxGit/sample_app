@@ -54,18 +54,38 @@ p {
 
 #logo {
 	float: left;
-	color: white;
+	color: $red;
 	font-size: 1.7em;
 	font-weight: bold;
+	font-family: "Lobster";
 	letter-spacing: -1px;
-	text-transform: uppercase;
-  padding-top: 9px;
+	//text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-right: 10px;
-  line-height: 1;
+  line-height: 1.7;
   &:hover {
-	color: $red;
 	text-decoration: none;
   }
+}
+
+#learn {
+	float: left;
+	display: block;
+	color: $white;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: "Helvetica";
+	padding: 10px;
+	line-height: 1.7;
+	margin-left: 500px;
+	border-left: 1px solid $gray;
+	border-right: 1px solid $gray;
+	&:hover {
+		background-color: $grayDark;
+		text-decoration: none;
+		padding-top: 8px;
+	}
 }
 
 /* footer */
