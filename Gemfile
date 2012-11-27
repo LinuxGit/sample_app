@@ -12,9 +12,9 @@ gem 'bootstrap-will_paginate', '0.0.9'
 group :development, :test do
   gem 'sqlite3', '1.3.6'
   gem 'rspec-rails', '2.11.0'
-  gem 'guard-rspec', '1.2.1'
-  gem 'guard-spork', '1.2.0'
-  gem 'spork', '0.9.2'
+# gem 'guard-rspec', '1.2.1'
+# gem 'guard-spork', '1.2.0'
+# gem 'spork', '0.9.2'
 end
 
 # Gems used only for assets and not required
@@ -34,10 +34,10 @@ gem 'jquery-rails', '2.1.2'
 gem 'rb-readline', '0.4.2'
 
 group :test do
-	gem 'capybara', '1.1.2'
-	gem 'rb-inotify', '0.8.8'
-	gem 'libnotify', '0.7.4'
-	gem 'factory_girl_rails', '4.1.0'
+  gem 'capybara', '1.1.2'
+# gem 'rb-inotify', '0.8.8'
+# gem 'libnotify', '0.7.4'
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 group :development do
