@@ -64,6 +64,6 @@ class UsersController < ApplicationController
   end
 
   def signined_user
-    redirect_to(root_path) if sign_in?
+    redirect_to(root_path) if signed_in?
   end
 end

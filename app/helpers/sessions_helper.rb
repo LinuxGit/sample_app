@@ -21,7 +21,7 @@ module SessionsHelper
     user == current_user
   end
 
-  def sign_in?
+  def signed_in?
     !current_user.nil?
   end
 
@@ -35,7 +35,7 @@ module SessionsHelper
   end
 
   def signed_in_user
-    unless sign_in?
+    unless signed_in?
     store_location
     redirect_to signin_url, notice: "Please sign in."
     end
