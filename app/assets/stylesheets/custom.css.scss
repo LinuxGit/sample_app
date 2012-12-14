@@ -220,8 +220,6 @@ input, textarea, select, .uneditable-input {
   li {
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
-    font-weight: normal;
-    font-size: 16px;
   }
 
   .content {
@@ -230,11 +228,6 @@ input, textarea, select, .uneditable-input {
 
   .timestamp {
     color: $grayLight;
-    font-size: 14px;
-  }
-  .gravatar {
-    float: left;
-    margin-right: 10px;
   }
 }
 
