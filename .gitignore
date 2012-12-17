@@ -11,6 +11,8 @@
 /db/*.sqlite3
 
 # Ignore all logfiles and tempfiles.
+
+public/assets/
 /log/*.log
 /tmp
 *.swp
